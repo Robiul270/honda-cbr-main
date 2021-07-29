@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #264653;   
+}
+/* Nav Section */
+.toggler-icon{
+    color: #fff;
+    font-weight: bold;
+}
+.navbar{
+    background:  #264653;
+
+}
+/* .nav-link{
+    margin-right: 30px;
+    color: #fff
+} */
+
+
+/* Buttons Style */
+.btn{
+    background-color: #ce5132;
+    color: rgb(231, 227, 227); 
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.btn:hover{
+    background-color: rgb(243, 199, 199);
+    color:  #924835;
+    
+}
+/* latest news' second buttons */
+.btn-2{
+    border: 1px solid  #E76F51;;
+    color: #E76F51;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+/* .btn-2:hover{
+    background-color: orange;
+    color: #fff;
+} */
+/* Modal Buttons */
+.btn-red{
+    background-color: red;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #fff;
+    border: none;
+}
+/* Header Buttons */
+.btn-green{
+    background-color: green;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+}
+/* Bike Section's border */
+.small-border p{
+    display: inline;
+    border-bottom: 4px solid orange;
+    border-radius: 5px;
+    padding: 0px -20px;
+}
+/* Card Images Effect */
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.5);
+} 
+/* Grayscale Effect */
+.filter{
+    filter: grayscale(100%);
+}
+.filter:hover{
+    filter: grayscale(0%);
+}
+.gray-img img:hover{
+    filter: grayscale(100%);
+}
+/* clients stylesheet */
+.user-img{
+    padding: 15% 20% ;
+}
+.rounded-circle{
+    width: 300px;
+    height: 265px;
+}
+.icon{
+    color: orange;
+    letter-spacing: 5px;
+}
+/* Modal Style */
+.accordion-item{
+    background-color: papayawhip;
+}
+.accordion-item .accordion-button{
+    background-color: rgb(164, 194, 199);
+}
+.accordion-body p{
+    font-size: medium;
+    font-style: italic;
+}
+/* trending image style */
+
+/* .img-box{
+    max-height: 314px;
+   
+} */
+.img-box h6{
+    margin-top: 10px;
+}
+.submit-box{
+    text-align: center;
+}
+.submit-box input{
+    padding: 10px 45px;
+    border-radius: 25px;
+    border: none; 
+    background-color: rgb(255, 146, 164);
+    outline: none;
+}
+.submit-box button{
+    padding: 8px 20px;
+    border-radius: 20px;
+    border: none;
+}
+.right-img{
+    opacity: .8;
+}
+.fontawesome{
+    font-size: 40px;
+    letter-spacing: 20px;
+} 
+footer{
+    background-color: rgb(128, 99, 99);
+}
